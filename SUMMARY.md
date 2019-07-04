@@ -28,5 +28,7 @@
 
 ## Stretch Goals <a id="stretch-goals-1"></a>
 
-* [Untitled](stretch-goals-1/untitled.md)
+* [Enable messages container to scroll](stretch-goals-1/untitled.md)
+* [Add a timestamp to each of the messages](stretch-goals-1/add-a-timestamp-to-each-of-the-messages.md)
+* [Anything Else?](stretch-goals-1/anything-else.md)
 
