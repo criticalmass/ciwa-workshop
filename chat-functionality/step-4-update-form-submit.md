@@ -1,4 +1,4 @@
-# Step 4 - Update form submit
+# Update form submit handler
 
 {% code-tabs %}
 {% code-tabs-item title="src/client/script.js" %}

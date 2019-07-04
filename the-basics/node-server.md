@@ -8,7 +8,7 @@ The good news is you've already been using **Node.js** to run your application. 
 
 Lets take a minute to inspect some of the boilerplate code that we've provided for you that allows you to run your work in your web browser.  To follow along, please navigate to the server code found in the server folder in your CodeSandbox project.
 
-![&quot;/src/server/index.js&quot;](.gitbook/assets/screen-shot-2019-07-04-at-11.04.12-am.png)
+![&quot;/src/server/index.js&quot;](../.gitbook/assets/screen-shot-2019-07-04-at-11.04.12-am.png)
 
 The code inside **"/src/server/index.js"** will look like the following.
 

@@ -1,4 +1,4 @@
-# Step 6 - Listen for new chat messages on the server
+# Listen for new chat messages on the server
 
 {% code-tabs %}
 {% code-tabs-item title="src/server/index.js" %}

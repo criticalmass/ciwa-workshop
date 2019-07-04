@@ -1,4 +1,4 @@
-# Step 5 - Prepare server socket connection
+# Prepare server socket connection
 
 {% code-tabs %}
 {% code-tabs-item title="src/server/index.js" %}

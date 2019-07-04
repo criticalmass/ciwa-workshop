@@ -1,4 +1,4 @@
-# Step 3 - Send chat messages from client
+# Send chat messages from client
 
 {% code-tabs %}
 {% code-tabs-item title="src/client/script.js" %}

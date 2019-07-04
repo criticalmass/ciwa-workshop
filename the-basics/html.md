@@ -8,7 +8,7 @@ HTML, or Hypertext Markup Language is a language for describing what the structu
 
 Let's think of your web application as a house. 
 
-![](.gitbook/assets/blogpost-amy04.jpg)
+![](../.gitbook/assets/blogpost-amy04.jpg)
 
 The **HTML is the frame and the drywall** of the house. It forms the shape and the structure, but without any paint on the walls, it's pretty plain and non-functional.
 
@@ -38,11 +38,11 @@ We give `id/class`'s to certain elements so that they can be quickly referenced 
 
 ### Let's look at the structure of our application
 
-![](.gitbook/assets/screen-shot-2019-07-04-at-10.57.12-am.png)
+![](../.gitbook/assets/screen-shot-2019-07-04-at-10.57.12-am.png)
 
 To build out our HTML, we should visually break out these elements into their distinct pieces. You'll see the word **container** used a lot–this is used to describe an element that _**contains**_ other elements. It's a way of semantically grouping elements together that make sense. Thinking of this again using the house analogy, you can think of a **container** as a room in your house. If you were to describe a living room **&lt;LivingRoomContainer&gt;**, it would have a **&lt;Lamp /&gt;, &lt;Painting /&gt;, &lt;Couch /&gt;** and maybe a **&lt;TV /&gt;**.
 
-![](.gitbook/assets/structure-highlighted.png)
+![](../.gitbook/assets/structure-highlighted.png)
 
 ### Let's make that HTML!
 
@@ -64,7 +64,7 @@ As you can see, our `<main>` tag is like our `<ChatContainer>`, our `<h1>` tag r
 
 If everything went to plan, you should have something that looks like this:
 
-![](.gitbook/assets/screen-shot-2019-07-04-at-11.34.30-am.png)
+![](../.gitbook/assets/screen-shot-2019-07-04-at-11.34.30-am.png)
 
 It's still bland but it's a great start! Congratulations, you've scaffolded your first HTML webpage! Next, we'll start styling it to look better using **CSS**!
 

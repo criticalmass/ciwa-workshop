@@ -1,4 +1,4 @@
-# Step 7 - Send new chat message to all connected clients
+# Send new chat messages to all connected clients
 
 {% code-tabs %}
 {% code-tabs-item title="src/server/index.js" %}
