@@ -2,6 +2,8 @@
 
 Welcome to the CIWA Summer 2019 Workshop! Today, we'll be learning all about web fundamentals: HTML, CSS, and JavaScript.
 
+## SCHEDULE!!!!
+
 ### The Goal
 
 Today's goal is to get acquainted with HTML, CSS and JavaScript-based web programming to create a simple chat application. You can think of it like your own personal Facebook Messenger! We'll be using modern tools and learn a lot over the course of the day. 
