@@ -1,6 +1,10 @@
 # Web Server
 
+
+
 Up until this point we've been working exclusively with code that runs in your web browser. We like to call this "client side" code. To let our users send chat messages to each other, we will need to build a web server that will send and receive chat messages to all the connected users.
+
+![](../.gitbook/assets/image-1.png)
 
 For this workshop we will building our server using  **Node.js**. **Node.js** allows us to write **JavaScript** code that will run on a web server. This way, for our chat application we will be using the same language \(**JavaScript**\) on both the client and the server.
 

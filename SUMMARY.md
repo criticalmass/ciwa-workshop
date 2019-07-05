@@ -9,6 +9,7 @@
 * [CSS](the-basics/css.md)
 * [CSS Exercise \(Solution\)](the-basics/css-exercise-solution.md)
 * [JavaScript](the-basics/javascript.md)
+* [JavaScript Exercise](the-basics/javascript-exercise.md)
 * [Web Server](the-basics/node-server.md)
 
 ## Chat Functionality
