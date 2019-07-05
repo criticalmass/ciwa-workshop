@@ -7,6 +7,7 @@
 
 * [HTML](the-basics/html.md)
 * [CSS](the-basics/css.md)
+* [CSS Exercise \(Solution\)](the-basics/css-exercise-solution.md)
 * [JavaScript](the-basics/javascript.md)
 * [Web Server](the-basics/node-server.md)
 
@@ -22,15 +23,15 @@
 * [Send new chat messages to all connected clients](chat-functionality/step-7-send-new-chat-message-to-all-connected-clients.md)
 * [Listen for new chat messages on the client](chat-functionality/listen-for-new-chat-messages-on-the-client.md)
 
-## Completed Source Code <a id="completed-workshop"></a>
-
-* [PLEASE DON'T CHEAT](completed-workshop/completed-project.md)
-
 ## Stretch Goals <a id="stretch-goals-1"></a>
 
 * [Enable messages container to scroll](stretch-goals-1/untitled.md)
 * [Add a timestamp to each of the messages](stretch-goals-1/add-a-timestamp-to-each-of-the-messages.md)
 * [Anything Else?](stretch-goals-1/anything-else.md)
+
+## Completed Source Code <a id="completed-workshop"></a>
+
+* [PLEASE DON'T CHEAT](completed-workshop/completed-project.md)
 
 ## Wrapup
 
