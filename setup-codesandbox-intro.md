@@ -1,6 +1,6 @@
 # Setup / CodeSandbox Intro
 
-We'll be using a nifty tool called **CodeSandbox** to write all our code today. **CodeSandbox** is what we call an IDE–an Integrated Development Environment. It allows us to write code and run it all in one spot. Normally, you'd have to setup a series of tools yourself with a ton of overhead and training to get everything working but **CodeSandbox** does that all for us. _Phew!_
+We'll be using a cool tool called **CodeSandbox** to write all our code today. **CodeSandbox** is what we call an IDE–an Integrated Development Environment. It allows us to write code and run it all in one spot. Normally, you'd have to setup a series of tools yourself with a ton of overhead and training to get everything working but **CodeSandbox** does that all for us. _Phew!_
 
 ### Sign-in to CodeSandbox
 
@@ -14,7 +14,7 @@ Forking the app is easy. First, navigate to this URL:
 
 ### [https://codesandbox.io/s/ciwa-workshop-start-e9hvc](https://codesandbox.io/s/ciwa-workshop-start-e9hvc)
 
-You'll be greeted with this screen. Click FORK in the top-right corner by the green avatar!
+You'll be greeted with this screen. Click FORK in the top-right corner by the avatar!
 
 ![](.gitbook/assets/screen-shot-2019-07-04-at-10.31.35-am.png)
 
@@ -24,7 +24,7 @@ When that's complete, you should see this little pop-up \(or the technical term,
 
 ![](.gitbook/assets/screen-shot-2019-07-04-at-10.33.21-am.png)
 
-Once you've forked it, we'll want to rename it so you can find it later on. Do this by clicking the title at the top-center of the window \(it should currently be **My Sandboxes/ciwa-workshop-start**\). Once you click it, you'll be able to edit the name. You can name it whatever you want but PLEASE put your full name in the title so you can identify it later with ease.
+Once you've forked it, we'll want to rename it so you can find it later on. Do this by clicking the title at the top-center of the window \(it should currently be **My Sandboxes/ciwa-workshop-start**\). Once you click it, you'll be able to edit the name. You can name it whatever you want but PLEASE put your full name in the title so you can identify it later with ease. 
 
 ![](.gitbook/assets/screen-shot-2019-07-04-at-10.34.29-am.png)
 

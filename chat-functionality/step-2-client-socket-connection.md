@@ -1,6 +1,6 @@
 # Client socket connection
 
-After we've added the Socket.IO script to our html page. Our JavaScript file will have access to Socket.IO through a global variable **"window.io".** We can then use this dependency to create a new Socket connection between our client application and our server using the origin url.
+After we've added the Socket.IO script to our html page. Our JavaScript file will have access to Socket.IO through the variable **"window.io".** We can then use this to create a new Socket connection between our client application and our server using the url of the page.
 
 {% code-tabs %}
 {% code-tabs-item title="src/client/script.js" %}
@@ -14,7 +14,7 @@ const socket = io.connect(url);
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-We now have a valid connection between our client and server and we are ready to send chat messages from our HTML form to our **Node.js** web server.
+We now have a connection between our client and server and we are ready to send chat messages from our HTML form to our **Node.js** web server.
 
 ### 
 

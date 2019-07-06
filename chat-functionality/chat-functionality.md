@@ -4,16 +4,16 @@ Now it's time to add the last missing, yet crucial piece to our app: _chat funct
 
 ### Socket.IO
 
-To do this, we will leverage yet another 3rd party Node module/dependency. It's called Socket.IO. Socket.IO will leverage a technology that browsers have called Web Sockets. What's nice about Socket.io is that it will let us write similar JS code on both the client \(browser\) side and at the server \(Node\) side.
+To do this, we will leverage yet another dependency. It's called Socket.IO. Socket.IO allows us to easily set up communication between multiple different browsers/computers. What's nice about Socket.io is that it will let us write similar JS code on both the client \(browser\) side and at the server \(Node\) side.
 
 You can check it out here: [http://socket.io/](http://socket.io/)
 
 ### Chat Application Requirements
 
-1. Setup our HTML form to submit a chat message to the server using Socket.IO.
-2. Update our server code to use Socket.IO and listen for new chat messages from clients.
-3. Update our server code to use Socket.IO to emit any new messages to all connected clients.
-4. Update our client code to display the new chat messages as they are received from the server.
+1. Our HTML form needs to send \(submit\) messages to the server. 
+2. The server needs to listen for those messages using Socket.IO.
+3. The server then needs to send out those messages to all of the other connected clients, also using Socket.IO.
+4. Once the client receives those messages, the messages should be displayed using HTML. 
 
 ## 
 

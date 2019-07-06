@@ -23,8 +23,8 @@ function postChatMessageToServer(name, msg) {
 {% endcode-tabs %}
 
 {% hint style="info" %}
-The socket.emit function takes in two arguments. The first is argument is the "name" or "label". This can be anything you want, but it needs to be consistent between the client and the server. The second argument is the data you want to emit.
+The socket.emit function takes two inputs. The first is input is the "label". This can be anything you want, but it needs to be consistent between the client and the server. The second input is the information you want to sent. In this case, the second input is our chatMessage object.
 {% endhint %}
 
-We now have a function that will send data to our server that we can call from our existing form submit handler.
+We now have a function that will send data to our server that we can call when the form is submitted.
 

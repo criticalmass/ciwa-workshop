@@ -1,6 +1,6 @@
 # Web Server
 
-
+Up until this point we've been only been working with code that runs in your web browser. We call this the "client side" code. To let our users send chat messages to each other, we will need to build a web server that will send and receive chat messages to all the connected users.
 
 Up until this point we've been working exclusively with code that runs in your web browser. We like to call this "client side" code. To let our users send chat messages to each other, we will need to build a web server that will send and receive chat messages to all the connected users.
 
@@ -10,7 +10,7 @@ For this workshop we will building our server using  **Node.js**. **Node.js** al
 
 The good news is you've already been using **Node.js** to run your application. When you navigate to your webpage, your browser sends an **HTTP Request** to the server. The server then responds back to your browser with the **HTML**, **CSS** and **JavaScript** that we've already created in this workshop. It's what allows us to see all the awesome work we've already finished!
 
-Lets take a minute to inspect some of the boilerplate code that we've provided for you that allows you to run your work in your web browser.  To follow along, please navigate to the server code found in the server folder in your CodeSandbox project.
+Lets take a minute to inspect some of the code that we've provided for you that allows you to run your work in your web browser.  To follow along, please navigate to the server code found in the server folder in your CodeSandbox project.
 
 ![&quot;/src/server/index.js&quot;](../.gitbook/assets/screen-shot-2019-07-04-at-11.04.12-am.png)
 
@@ -38,7 +38,7 @@ const server = http.Server(app).listen(8080);
 {% endcode-tabs %}
 
 {% hint style="info" %}
-You will notice at the bottom of this file \(lines 11-13\) some of the code we will need is commented out. This means is a neat way of writing code that will be ignored by the server.  If you would like to comment out some of your code, you can do this by starting any line with "//".
+You will notice at the bottom of this file \(lines 11-13\) some of the code we will need is commented out. This means is a neat way of writing code that will be ignored by the server.  If you would like to comment out some of your code, you can do this by starting any line with "//". Developers use comments to add extra information about the code that they have written. 
 {% endhint %}
 
 ### Code Explanation
@@ -52,7 +52,7 @@ const express = require("express");
 const app = express();
 ```
 
-For our chat application to work. We need to leverage some code that other people have already written. In programming and in **Node.js** specifically we call these "**dependencies**". For today's workshop you don't really need to know how this works. But basically we are importing several dependencies that help us create and run a web server. 
+For our chat application to work, we will be using some code that other people have already written. In programming and in **Node.js** specifically we call these "**dependencies**". For today's workshop you don't really need to know how this works. But basically we are importing several dependencies that help us create and run a web server. 
 
 ```text
 const clientPath = path.resolve(__dirname, "../client/");

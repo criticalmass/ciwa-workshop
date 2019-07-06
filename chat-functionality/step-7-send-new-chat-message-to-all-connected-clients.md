@@ -1,8 +1,8 @@
 # Send new chat messages to all connected clients
 
-To send our new chat message to all our connect users we will update our event handler to "emit" the message using the "io.emit" method. 
+To send our new chat message to all our connect users we will update our event handler to "emit" \(or send out\) the message using the "io.emit" method. 
 
-This method will send the chat message to everyone, including the original author.
+This will send the chat message to everyone, including the original author.
 
 {% code-tabs %}
 {% code-tabs-item title="src/server/index.js" %}

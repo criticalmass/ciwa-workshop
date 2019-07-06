@@ -1,25 +1,35 @@
 # JavaScript
 
-Following our house analogy, **JavaScript** is the language that provides **functionality** \(remember the doorbell?\) to our house! JavaScript is a functional programming language–don't worry if that doesn't make sense at this point, it's not overly important for today. Let's break down some of the fundamental concepts for today.
+Following our house analogy, **JavaScript** is the language that provides **functionality** \(remember the doorbell?\) to our house! JavaScript is a programming language - meaning it allows us to give the computer instructions in a way that the computer understands. Let's break down some of the fundamental concepts for today.
+
+### Statements
+
+A statement is **one contained** **instruction** for the computer the follow and should always be ended with a semi-colon `;`.
 
 ### Variables
 
-Variables are a way to assign a label or name to a value for re-use in your code. When you create a variable, it's called **declaring**. A **variable declaration** looks like this:
+A variable is a container that holds information that we can later access. You can think of a variable as a box that contains something. You can open the box to find out what is inside, or even put something else into the box. 
+
+A variable has a **name** and contains a **value**. Think of our previous analogy of a variable as being a box. If you labeled the box as _Toys_ and put a yo-yo inside it, in programming terms, _Toys_ is the **variable name**, and _yo-yo_ is the **value.**
+
+The kind of value that a variable can hold is also called a **data type.** Now, let us look at 3 different data types – **Numbers, Strings, and Booleans.**
+
+In JavaScript, creating a variable can look like this:
 
 `const myAge = 10;`
 
-Variables have three major parts: the type of variable \(`const` / `let`\), the name of the variable \(`myAge`\), and then the actual assigned value \(`10`\).  The entire **variable declaration** can also be referred to as a **statement**. A statement is **one contained** **instruction** for the computer the follow and should always be terminated/ended with a semi-colon `;`.
+Here, `myAge` is the variable name, and `10`is the value**.** `const` is how we're telling the browser that we want to create a new variable.
 
-Don't worry too much if this isn't making a ton of sense. These concepts take time to understand and the best way to learn is to **do** and then look at the effect your code has. Things will start to fall in place!
+**Extra reading:** What is `const`? ****The word before a variable name is the _**variable type.**_ In this case, we are telling the browser that this variable is constant and cannot be changed. Other ways to declare a variable, aside from using the const keyword, is by using the keywords `var`, or `let`. Don't worry if this isn't making a ton of sense. These concepts take time to understand and the best way to learn is to **do** and then look at the effect your code has. Things will start to fall in place!
 
 ### Values / Types
 
 This could be a whole section of the class but we'll cover off a few of the basics that you'll use today. Variables can be assigned different **types** of values. 
 
-* **Interger / Number**: This is represented as just a number like the above example: `const myAge = 10;`
+* **Number**: This is represented as just a number like the above example: `const myAge = 10;`
 * **String**: A string is a _**word**_ or _**sentence**_ that you want assigned to a variable. You must surround your string in quotes as if it were a speaking character in a story you were writing! Example: `const myName = "Lee Mulvey";`
 * **Boolean**: A boolean is a bit of a silly word. A boolean can represent two distinct values: `true` or `false`. It's important that you do not surround it with quotes otherwise the computer will think it's a **string**, not a boolean! Example: `const isLeeTeaching = true;`
-* **Objects**: These can be pretty complex. They're like a **collection** of **variable declarations.** Every property in an object has a **name** and a **value**. All of the properties are separated by a comma and surrounded by curly brackets `{ }`. If we were to put the above variables into an object, it would look like this: 
+* **Objects**: An object is way to place variables into a group. Think of this as a larger box that can store any other boxes. For instance, we have have a large box called "Children's items'. This can contain a box titled "Toys" which contains a yo-yo, and a box titled "Bathroom" which contains a toothbrush. All of the properties in an object are separated by a comma and surrounded by curly brackets `{ }`. For example: 
 
 ```javascript
 const leeObject = {
@@ -31,11 +41,19 @@ const leeObject = {
 
 #### What do I do with variables?
 
-Since they capture/refer to a value, you can reference them later. Let's say you have these two variables: `const five = 5;` and `const ten = 10;`, you could later create a NEW variable called `fifteen` and reference your other ones with a little math magic to create it: `const fifteen = five + ten;` . Variables can be passed around and assigned to each other, as well as assigned inside of objects. When accessing **nested properties** inside an **object**, you call it with the `objectName` and then a period, and then the `propertyName`. In practice, to pull up my name from the object above, you would call `leeObject.myName` and that would return `Lee Mulvey`. Variables are amazing!
+Since they capture/refer to a value, you can reference them later. Let's say you have these two variables: `const five = 5;` and `const ten = 10;`, you could later create a NEW variable called `fifteen` and reference your other ones with a little math magic to create it: `const fifteen = five + ten;` . If this sounds silly right now, don't worry about it! Variables will make more sense once we start coding.
+
+Variables can be passed around and assigned to each other, as well as assigned inside of objects. When accessing **nested properties** inside an **object**, you call it with the `objectName` and then a period, and then the `propertyName`. In practice, to pull up my name from the object above, you would call `leeObject.myName` and that would return `Lee Mulvey`. Variables are amazing!
 
 ### Functions
 
-A function is set of instructions that you want the program to perform over and over again. Before we get into code, let's think of our doorbell again. What are the steps we want to happen while our doorbell is pushed?
+A function is set of instructions that you want the program to perform over and over again. 
+
+All programming functions have input\(s\) and output\(s\). The function contains instructions used to create the output from its input. It’s like a cow that eats grass \(the input\) which its body turns into milk which a dairy farmer then milks \(the output\).
+
+For example, programming functions might take as input any number. The function might create output by adding the input times two. Therefore, the output of the function would be the sum of the two inputs.
+
+Before we get into code, let's think of our doorbell again. What are the steps we want to happen while our doorbell is pushed?
 
 1. Doorbell light turn on
 2. Send signal to the doorbell speaker to trigger a DING sound
@@ -54,7 +72,7 @@ function onDoorbellPush() {
 };
 ```
 
-A few things to note here. You'll see that functions are declared a bit differently than variables. You start your function with the word `function`! Next up is the name of the function itself, in this case, `onDoorBellPush`. You'll notice the empty brackets next to the name `()` - this is the spot where arguments would be placed. Arguments are like variables that can affect the outcome of function. Take for example a function that adds two numbers together:
+A few things to note here. You'll see that functions are declared a bit differently than variables. You start your function with the word `function`! Next up is the name of the function itself, in this case, `onDoorBellPush`. You'll notice the empty brackets next to the name `()` - this is the spot where input would be placed. Arguments are like variables that can affect the outcome of function. Take for example a function that adds two numbers together:
 
 ```javascript
 function addNumbers(number1, number2) {
@@ -62,7 +80,7 @@ function addNumbers(number1, number2) {
 };
 ```
 
-In this example, if you call the function with two numbers: `addNumbers(10, 5);` it would return fifteen! The `return` keyword is another rabbit hole but it's important to note that functions can RETURN a value to be assigned. So, taking the above example again, if you wanted to create a new variable called fifteen with the **value** of `15`, you could use that function: `const fifteen = addNumbers(10, 5);`
+In this example, if you call the function with two numbers: `addNumbers(10, 5);` it would return fifteen! The `return` keyword is allows the function to provide the output to the code which called the function. So, taking the above example again, if you wanted to create a new variable called fifteen with the **value** of `15`, you could use that function: `const fifteen = addNumbers(10, 5);`
 
 **Whew!** That's a lot to take in. Let's break down how the instructions for the doorbell when we let go! As a reminder:
 
@@ -78,13 +96,13 @@ function onDoorbellRelease() {
 };
 ```
 
-There we go! Now, we're ready to attach that **functionality** to our **events.**
+There we go! Now, we're ready to attach that **function** to our **events.**
 
 ### **Events**
 
-Events are a very common concept in programming, especially on the web. Events are triggered on a webpage when you `click` the mouse, `move` your mouse, hit a key on the keyboard \(`keypress`\), and even when you browse on your phone and tap on the screen \(`onTapStart`\). 
+Events are a very common concept in programming, especially on the web. Events are triggered on a webpage when you `click` the mouse, `move` your mouse, hit a key on the keyboard \(`keypress`\), and even when you browse on your phone and tap on the screen \(`onTapStart`\). We can allow the browser to respond to events by creating _**Event Handlers**_ - which are special functions that allow us to react to events. 
 
-Events allow us to tie functionality to things we do on the web. Now, let's look at a "real world" event by attaching our doorbell functions to events. Typically an `eventListener` looks is a pre-existing function that takes two arguments: the `eventName`, and the action/function to perform when that event occurs!
+Events allow us to tie functionality to things we do on the web. Now, let's look at a "real world" event by attaching our doorbell functions to events. An `eventListener` is a function that takes two arguments: the `eventName`, and the action/function to perform when that event occurs!
 
 `House.addEventListener('doorbellPush', onDoorbellPush);`
 

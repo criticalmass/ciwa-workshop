@@ -1,6 +1,6 @@
 # Prepare server socket connection
 
-In order for our server to accept chat messages we first need to add the Socket.IO module as a dependency to our server code.
+In order for our server to accept chat messages we first need to add Socket.IO as a dependency to our server code.
 
 Once we've added the required dependencies we then need to use the dependency to open a connection. 
 

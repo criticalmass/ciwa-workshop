@@ -18,35 +18,39 @@ The **JavaScript** represents the functionality of the house! You can think of i
 
 ### Okay, so how do we describe the structure/frame of our web app?
 
-We use what's commonly referred to as _**markup**_ to describe _**elements**_ with _**tags**_. The tags look like **&lt;this&gt;** and they have _**meaning!**_  Some examples of tags are `<p>` which **means** "paragraph" or a `<h1>` which means a "first-level heading". Most tags need a _**closing tag**_ which allows you to put text in-between the tags. `<p>I am a paragraph!</p>` - this means that all the text in-between the `<p>` and `</p>` is considered a "paragraph".
+HTML uses _**tags**_ to describe the structure of a web application. A tag consists of angled brackets &lt;..&gt; with words or letters inside. These words or letters are called _**elements**_, and are used to tell the browser what to display. For instance, a &lt;br&gt; tag tells the computer to start a new line in a paragraph. 
 
-You may be asking yourself... who/what are we describing this structure to? Well, the answer to that is **the browser!**
+Elements that require a closing tag are _**container elements.**_ A closing tag has a forward slash \(/\), and the same tag name as the opening tag_**.**_ These tags wrap around text, images, or other elements. For instance, to make an html paragraph, we write down the start and closing &lt;p&gt;...&lt;/p&gt; tags, with the paragraph text in between:`<p>I am a paragraph!</p>` - this means that all the text in-between the `<p>` and `</p>` is considered a "paragraph".
 
-It's up to your browser **\(Chrome, Firefox, Internet Explorer, Edge\)** to read this markup and determine how it looks. Most browsers interpret the markup the same with a few differences that we will not be covering today. Cross-browser support for websites could be it's own workshop!
+To see what other kinds of tags are available, take a look at this [HTML cheat sheet](https://www.wired.com/2010/02/html_cheatsheet/). 
 
 #### Nesting
+
+We build up our web page through nesting, by putting tags inside of other tags. 
 
 We indent our code when that content is _inside_ a tag \(between opening and closing tags\) so that it's easy to understand what code is inside other code.
 
 #### Attributes
 
-Attributes are options that exist on a tag. They look like this: `<h1 class="my-heading" id="my-heading-id">` where `class` and `id` are attributes. Elements can have zero or more attributes. Attributes are cool and come in handy later.
+Attributes add more information about the elements for the browser. They look like this: `<h1 class="my-heading" id="my-heading-id">` where `class` and `id` are attributes. Elements can have zero or more attributes. Attributes are cool and come in handy later.
 
 #### IDs / Classes
 
-We give `id/class`'s to certain elements so that they can be quickly referenced later. This will be used in our CSS files to apply styling to specific elements. It will also be used to reference elements in our JavaScript!
+We give `id/class` attributes to certain elements so that they can be quickly referenced later. An id is like your first and last name, it can be used as a unique identifier! No two elements can have the same id. A class is used to identify a group of elements, just like your surname/family name can be used to identify members of your family. 
+
+Both will be used in our CSS files to apply styling to specific elements. They will also be used to reference elements in our JavaScript!
 
 ### Let's look at the structure of our application
 
 ![](../.gitbook/assets/screen-shot-2019-07-04-at-10.57.12-am.png)
 
-To build out our HTML, we should visually break out these elements into their distinct pieces. You'll see the word **container** used a lot–this is used to describe an element that _**contains**_ other elements. It's a way of semantically grouping elements together that make sense. Thinking of this again using the house analogy, you can think of a **container** as a room in your house. If you were to describe a living room **&lt;LivingRoomContainer&gt;**, it would have a **&lt;Lamp /&gt;, &lt;Painting /&gt;, &lt;Couch /&gt;** and maybe a **&lt;TV /&gt;**.
+To build out our HTML, we should visually break out these elements into their distinct pieces. You'll see the word **container** used a lot–this is used to describe an element that _**contains**_ other elements. It's a way of  grouping elements together. Thinking of this again using the house analogy, you can think of a **container** as a room in your house. If you were to describe a living room **&lt;LivingRoomContainer&gt;**, it would have a **&lt;Lamp /&gt;, &lt;Painting /&gt;, &lt;Couch /&gt;** and maybe a **&lt;TV /&gt;**.
 
 ![](../.gitbook/assets/structure-highlighted.png)
 
 ### Let's make that HTML!
 
-Now,  HTML markup is all about following convention and semantics. Unfortunately, if you tell the browser that you want a `<ChatContainer>`, it has no idea what that is! Let's break these out into proper HTML elements. We'll talk about them a bit as we go. You're going to type the following code into your `index.html` file in-between your `<body> </body>` tags:
+Unfortunately, the browser only has a specific set of elements that it can understand. If you tell the browser that you want a `<ChatContainer>`, it has no idea what that is! Let's break these out into proper HTML elements. We'll talk about them a bit as we go. You're going to type the following code into your `index.html` file in-between your `<body> </body>` tags:
 
 ```markup
 <main>
@@ -66,7 +70,7 @@ If everything went to plan, you should have something that looks like this:
 
 ![](../.gitbook/assets/screen-shot-2019-07-04-at-11.34.30-am.png)
 
-It's still bland but it's a great start! Congratulations, you've scaffolded your first HTML webpage! Next, we'll start styling it to look better using **CSS**!
+It's still bland but it's a great start! Congratulations, you've created your first HTML webpage! Next, we'll start styling it to look better using **CSS**!
 
 ## Questions? Stuck? Please wave 👋🏻 down a mentor for assistance!
 
