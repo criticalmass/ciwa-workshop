@@ -1,7 +1,5 @@
 # Web Server
 
-Up until this point we've been only been working with code that runs in your web browser. We call this the "client side" code. To let our users send chat messages to each other, we will need to build a web server that will send and receive chat messages to all the connected users.
-
 Up until this point we've been working exclusively with code that runs in your web browser. We like to call this "client side" code. To let our users send chat messages to each other, we will need to build a web server that will send and receive chat messages to all the connected users.
 
 ![](../.gitbook/assets/image-1.png)
