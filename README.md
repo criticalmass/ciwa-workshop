@@ -1,6 +1,10 @@
-# Introduction / Wi-Fi Password
+# Introduction / Credentials
 
 {% hint style="info" %}
+**GitHub Login**  
+**U:** ciwa-cm  
+**P:** c1wa+critic@lmas$
+
 **Wi-Fi Information  
 Network:** CM-G  
 **U:** cciwa  
