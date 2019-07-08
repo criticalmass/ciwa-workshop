@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Introduction / Wi-Fi Password](README.md)
 * [Setup / CodeSandbox Intro](setup-codesandbox-intro.md)
 
 ## The Basics

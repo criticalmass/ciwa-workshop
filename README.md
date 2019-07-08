@@ -1,4 +1,13 @@
-# Introduction
+# Introduction / Wi-Fi Password
+
+{% hint style="info" %}
+**Wi-Fi Information  
+Network:** CM-G  
+**U:** cciwa  
+**P:** 5730
+{% endhint %}
+
+
 
 Welcome to the CIWA Summer 2019 Workshop! Today, we'll be learning all about web fundamentals: HTML, CSS, and JavaScript.
 
