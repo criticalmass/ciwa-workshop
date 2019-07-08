@@ -94,7 +94,7 @@ function resetForm() {
   messageInput.focus();
 }
 
-form.addEventListener("submit", function(event) {.
+form.addEventListener("submit", function(event) {
   event.preventDefault();
   const name = nameInput.value;
   const msg = messageInput.value;
