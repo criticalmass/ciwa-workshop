@@ -1,17 +1,4 @@
-# Introduction / Credentials
-
-{% hint style="info" %}
-**GitHub Login**  
-**U:** ciwa-cm  
-**P:** c1wa+critic@lmas$
-
-**Wi-Fi Information  
-Network:** CM-G  
-**U:** cciwa  
-**P:** 5730
-{% endhint %}
-
-
+# Introduction
 
 Welcome to the CIWA Summer 2019 Workshop! Today, we'll be learning all about web fundamentals: HTML, CSS, and JavaScript.
 
